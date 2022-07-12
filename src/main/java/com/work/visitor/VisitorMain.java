@@ -35,7 +35,7 @@ public class VisitorMain {
                 CPP14Parser parser = new CPP14Parser(tokens);
 
                 GetNameSpace.className(parser);
-                GetNameSpace.getMethodName(parser);
+//                GetNameSpace.getMethodName(parser);
 
             } catch (IOException e) {
                 e.printStackTrace();
